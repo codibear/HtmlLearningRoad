@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>favourite</title>
+		<link rel="stylesheet" type="text/css" href="../css/work4-4.css"/>
+	</head>
+	<body>
+		<div >
+			<div id="div1">大家喜欢的化妆品</div>
+			<ul>
+				<li class="li1"><a href="#">&nbsp;&nbsp;<span class="span2">1</span>&nbsp;&nbsp;雅诗兰黛护手霜150ml</a></li>
+				<li class="li1"><a href="#">&nbsp;&nbsp;<span class="span2">2</span>&nbsp;&nbsp;一叶子面膜12张装</a></li>
+				<li class="li1"><a href="#">&nbsp;&nbsp;<span class="span2">3</span>&nbsp;&nbsp;OLAY玉兰油多效修复霜50g</a></li>
+				<li class="li1"><a href="#">&nbsp;&nbsp;<span class="span2">4</span>&nbsp;&nbsp;巨型一号修复水320ml</a></li>
+				<li class="li1"><a href="#">&nbsp;&nbsp;<span class="span2">5</span>&nbsp;&nbsp;Chanel眼影</a></li>
+				<li class="li1"><a href="#">&nbsp;&nbsp;<span class="span2">6</span>&nbsp;&nbsp;欧莱雅青春密码活颜精华肌底液</a></li>
+			</ul>
+		</div>
+	</body>
+</html>

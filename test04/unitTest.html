@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript">
+			var name1 = prompt("请输入姓名：","二狗");
+			alert("输入类型是："+typeof(name1));
+			var name2 = prompt("请输入字符：","abcadeafjhiagk");
+			alert("长度是："+parseInt(name2.length)+1);
+			alert("输出您写的字符的前4个："+name2.substring(0,4));
+			alert("f在位置："+name2.indexOf("f")+1);
+			alert("输入中a分的段："+name2.split("a"));
+			var flag = confirm("您的性别是男？");
+			if(flag=true){alert("您是男的");}else{alert("您是女的");}
+			function sayName(){
+				document.write(name1)
+			}
+		</script>
+		<style type="text/css">
+			#container{width: 100%;height: 900px;background: gray;}
+			#main{width: 100%;height: 700px;background: greenyellow;}
+			#header{width: 100%;height: 100px;background: red;}
+			#foot{width: 100%;height: 100px;background: blueviolet;}
+			#main-left{width: 80%;height: 700px;background: salmon;float: left;}
+			#main-right{width: 20%;height: 700px;background: white;float:left;}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			
+			<div id="header"> 
+				
+			</div>
+			<div id="main">
+				<div id="main-left">
+					<!--相对定位-->
+					<div style="width: 50px;height: 50px;background: cornflowerblue;float: left;">
+						
+					</div>
+					<div style="width: 50px;height: 50px;background: greenyellow;float: left;position: relative; right: 20px;">
+						
+					</div>
+					<div style="width: 50px;height: 50px;background: mediumorchid;float: left;">
+						
+					</div>
+					<!--绝对定位-->
+					<div style="width: 50px;height: 50px;background: cornflowerblue;float: left;margin-left: 50px;">
+						
+					</div>
+					<div style="width: 50px;height: 50px;background: greenyellow;float: left;position: absolute; right: 20px;">
+						
+					</div>
+					<div style="width: 50px;height: 50px;background: mediumorchid;float: left;">
+						
+					</div>
+					<!--固定定位-->
+					<div style="width: 50px;height: 50px;background: cornflowerblue;float: left;margin-left: 50px;">
+						
+					</div>
+					<div style="width: 50px;height: 50px;background: greenyellow;float: left;position: fixed;top: 10px;">
+						
+					</div>
+					<div style="width: 50px;height: 50px;background: mediumorchid;float: left;">
+						
+					</div>
+					<hr style="clear: both;" />
+					<div style="background: url(img/on.png);overflow: hidden;width: 50px;height: 50px;float: left;margin: 20px;">
+						
+					</div>
+						<div style="background: url(img/on.png);overflow: scroll;width: 100px;height: 50px;float: left;margin: 20px">
+						
+					</div>
+						<div style="background: url(img/on.png);overflow: auto;width: 100px;height: 50px;float: left;margin: 20px">
+						
+					</div>
+					<p style="background: aquamarine; display: inline;">sdfa</p>
+					<span style="background: seagreen;display: block;">dsf</span>
+					
+				</div>
+				<div id="main-right">
+					<input type="button" value="输出您的名字" onclick="sayName()"/>
+				</div>				
+			</div>
+			<div id="foot">
+				
+			</div>
+		</div>
+	</body>
+</html>

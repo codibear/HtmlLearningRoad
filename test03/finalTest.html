@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>finalTest</title>
+		<style>
+			#h21{color: green;font-style: italic;}
+		    /*同一个名区分不同的表签*/
+			h1.h22{color: red;font-style: italic;}
+			h2.h22{color: green;font-style: italic;}
+			/*不同的名字修饰同一个标签*/
+			h3,.a1,#end{color: yellow;}
+			.span1{color:gray;font-family:楷体;font-size: 10px;font-style: italic;}
+			.span2{font:palevioletred 新宋体  bolder ;}		
+			#span3{background: red url(img/dress01.png) no-repeat 50px 50px;}
+			#span4{background-color: gold; background-image: url(img/dress02.png); background-position: 30px 30px;}
+			#span5{border: dashed 10px red;}
+			#span6{border-color: darkgreen;border-style: groove; border-top-width: 3px ;opacity: 0.2;}
+			#div2{cursor: pointer;width: 20%;height: 200px;}
+			#div3{margin: 50px;padding: 50px;background-color: blue;}
+			#div4{height:900px;background:url("image/2.jpg") 50px 50px no-repeat,
+                             url("image/0.jpg") 100px 100px no-repeat;}
+			#div5{border-radius: 50px; height: 200px ;width: 200px; border: 1px dashed;}
+			#p1{text-align: center;text-decoration: line-through;line-height: 20px; text-indent: 20px;}
+		</style>
+		<link rel="stylesheet" type="text/css" href="css/finalTest.css" />
+	</head>
+	<body>
+		<h1 style="color: red;">这是行内样式</h1>
+		<h2 id="h21">这是内部样式</h2>
+		<h3 class="hh">这是外部样式</h3>
+		<h1 sun style="color: red;">这是后代选择器</h1>
+		<h1 class="h22">这是交集选择器</h1>
+		<h2 class="h22">这是交集选择器</h2>
+		<h3 id="end">这是这是并集选择器</h3>
+		<h3 class="a1">这是并集选择器</h3>
+		<span class="span1">（字阳）最是一年春好处，绝胜烟柳满皇都。</span>
+		<span class="span2">（字样）0最是一年春好处，绝胜烟柳满皇都。</span>
+		<p id="p1">今天是中软培训的第三天，过得真的挺充实的，老师讲的通俗易懂，我对HTML5非常兴趣。给我的体会就是，要多敲的代码，看和写是两码事。</p>
+		<a href="#"> 为样式类型</a>
+		<span id="span3">（背景）天街小雨润如酥，草色遥看近却无！天街小雨润如酥，草色遥看近却无！</span>
+		<span id="span4">（背景）天街小雨润如酥，草色遥看近却无！天街小雨润如酥，草色遥看近却无！</span>
+		<span id="span4">（边框）天街小雨润如酥，草色遥看近却无！天街小雨润如酥，草色遥看近却无！</span>
+		<span id="span4">（边框）天街小雨润如酥，草色遥看近却无！天街小雨润如酥，草色遥看近却无！</span>
+		<div id="div2">
+			这是光标和DIV
+		</div>
+		<div id="div3">
+			这是padding和margin
+			<!--
+            	作者：offline
+            	时间：2017-05-11
+            	描述：45 未成功
+            -->
+		</div>
+		<div id="div4">
+			这是CSS3的特别观察区（背景）:)
+		</div>
+		<div id="div5">
+			这是CSS3的特别观察区（边框）:)
+		</div>
+		
+</html>

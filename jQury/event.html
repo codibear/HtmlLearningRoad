@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.p1{color: red;font-size: 50px;}
+			.p3{color: greenyellow;font-size: 20px;}
+		</style>
+		<script type="text/javascript" src="js/jquery-1.11.3.js" ></script>
+		<script type="text/javascript">
+			/*$(function(){
+				$("input").mouseover(function(){
+					$("div").css("display","none");
+				});
+				$("div").mouseout(function(){
+					$("div").css("display","block")
+				});
+			});*/
+			/*$(function(){
+				$("input").click(function(){
+					$("div").css("color","gold");
+				});
+			});*/
+			$(function(){
+				$("#tx1").blur(function(){
+					var charge = $("#tx1").val();
+					if(charge==""){
+						$("#span1").html("qingshuru");
+					}
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<input type="text" id="tx1"/>
+		<span id="span1"></span>
+	</body>
+</html>

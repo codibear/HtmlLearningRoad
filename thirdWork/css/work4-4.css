@@ -1,0 +1,6 @@
+a:link{text-decoration: none;background-image: url(../img/dot_01.gif);background-repeat: no-repeat;background:rgb(0,0,0,0.25)}
+a:hover{color: #E9185A;background-image: url(../img/dot_02.gif);background-repeat: no-repeat;background:rgb(0,0,0,0.25)}
+.span2{color: white;}
+ul {list-style: none;width: 20%;}
+.li1 {border-bottom-style: dashed;padding-bottom: 10px; border-width: 1px;padding-top:5px ;}
+#div1{background: #E9185A;width: 20%;height: 50px;margin-left: 45px;font-size:20px;color: white;}

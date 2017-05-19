@@ -1,0 +1,8 @@
+#title { }
+#title {color: dodgerblue;font-weight: bolder;text-align: center;}
+#author { font-size:10px;color: gray;font-weight: lighter;}
+.main{text-indent:10px;font-family: "楷体";font-size: 20px;}
+#mei {font-size: 30px;color: deeppink;}
+#text1 {color: orange;font-style: italic;font-size: 30px;}
+#text2 {line-height: 20px;}
+#final {color: yellowgreen; font-size: 15px;text-decoration: underline;text-indent: 20px;}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>productShow</title>
+		<link rel="stylesheet" type="text/css" href="../css/work4-2.css"/>
+	<body>
+		<h2><img src="../img/dress01.png" align="absmiddle"/>夏季流行</h2>
+		<hr />
+		<p>
+			<span class="p1"> 
+				夏季新品&nbsp;雪纺衫&nbsp;铅笔裤&nbsp;短裤&nbsp;短袖衬衫&nbsp;小牛仔裤&nbsp;开衫&nbsp;泳裤&nbsp;打底裤&nbsp;嬉皮库&nbsp;运动衣
+			</span>
+		</p>
+		<h2><img src="../img/dress02.png" align="absmiddle"/>上装</h2>
+		<hr />
+		<p>
+			<span class="p"> 
+				T恤&nbsp;针织衫&nbsp;长袖T恤&nbsp;情侣衫&nbsp;卫衣&nbsp;休闲套装&nbsp;防晒衣&nbsp;保暖内衣&nbsp;针织衫&nbsp;毛衣&nbsp;内裤
+			</span>
+		</p>
+	</body>
+</html>

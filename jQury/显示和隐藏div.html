@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			*{margin:0px;padding:0px;}
+			#div1 {width:100%;height:150px;background: red;}
+			#div2 {width:100%;height:750px;background: green;}
+			h1 { background: aqua;}
+			#div3 {width:50%;height:150px;background:darkgoldenrod; position: absolute; top:30px;z-index: 2; display: none; }
+		</style>
+		<script type="text/javascript" src="js/jquery-1.11.3.js" ></script>
+		<script>
+			$(function(){
+				$("h1").mouse
+				$("h1").mouseover(function(){
+					//$("#div3").css("display","block");
+					//$("#div3").slideDown();
+					$("#div3").stop(true,false).slideDown();
+					
+				});
+				$("h1").mouseout(function(){
+					//$("#div3").css("display","none");
+					$("#div3").stop(true,false).slideUp();
+					
+				});
+				$("#div3").mouseover(function(){
+					//$("#div3").css("display","block");
+					//$("#div3").slideDown();
+					$("#div3").stop(true,false).slideDown();
+				});
+				$("#div3").mouseout(function(){
+					//$("#div3").css("display","none");
+					$("#div3").stop(true,false).slideUp();
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div id="div1">
+        	<h1>菜单导航显示div3</h1>
+        </div>
+        <div id="div2">
+        	主体内容
+        </div>
+        <div id="div3">
+        	<a href="作业4-9div布局.html">我就是要显示的内容div3，才行啊箭扣长城</a>
+        </div>
+        
+	</body>
+</html>
+

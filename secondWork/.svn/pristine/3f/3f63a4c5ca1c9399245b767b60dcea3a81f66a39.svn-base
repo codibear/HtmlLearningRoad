@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>paiPai</title>
+	</head>
+	<body>
+		<img src="../img/head.jpg" />
+		<form>
+			<fieldset style="width: 740px;">
+				<form>
+					<table width="740px" height="200px">
+						<tr>
+							<td colspan="3" align="center"><font color="red">以下均为必填项</font></td>
+						</tr>
+						<tr>
+							<td align="right" bgcolor="#33FFCC">请填写地址：</td>
+							<td><input type="text" name="address"/></td>
+							<td><font color="red">此项为必填项，请输入您的地址；</font></td>
+						</tr>
+						<tr>
+							<td align="right" bgcolor="#33FFCC">请填写昵称：</td>
+							<td><input type="text" name="address"/></td>
+							<td><font color="red">此项为必填项，请输入您的昵称；</font></td>
+						</tr>
+						<tr>
+							<td align="right" bgcolor="#33FFCC">请填写密码：</td>
+							<td><input type="text" name="passwd"/></td>
+							<td><font color="red">此项为必填项，请输入您的密码；</font></td>
+						</tr>
+						<tr>
+							<td align="right" bgcolor="#33FFCC">请在此填写密码：</td>
+							<td><input type="text" name="confPasswd"/></td>
+							<td><font color="red">此项为必填项，请输入您的密码；</font></td>
+						</tr>
+						<tr>
+							<td colspan="3" align="center">
+								<input type="checkbox" value="已同意此协议" name="agree"/>
+								《<a href="#">当当网交易条款</a>》<br />
+								<input type="submit" style="background: url(../img/register_submit.gif);width: 130px ;height: 35px; border: 0px;" name="submit"/>
+								<input type="reset" style="background: url(../img/register_submit.gif);width: 130px;height: 35px;border: 0px" name="reset"/>
+							</td>
+						</tr>
+					</table>
+				</form>
+			</fieldset>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/test.css" />
+	</head>
+	<body>
+		<dl>
+			<span  >
+				<dt ><img  src="../img/on.png"/></dt>
+				<dd>这是这是小熊</dd>
+				<dd>他很喜欢交朋友</dd>
+			</span>
+				<span >
+				<dt ><img  src="../img/two.jpg"/></dt>
+				<dd>这是就是青春</dd>
+				<dd>激情燃烧的岁月</dd>
+			</span>
+			<span id="id">
+				<dt ><img  src="../img/three.jpg"/></dt>
+				<dd>这是金克斯</dd>
+				<dd>一个游戏里的英雄</dd>
+			</span>
+			<span>
+				<dt><img src="../img/four.jpg"/></dt>
+				<dd>这是哆啦A梦</dd>
+				<dd>大雄的朋友</dd>
+			</span>
+			<span id="id">
+				<dt><img src="../img/five.jpg"/></dt>
+				<dd>这是柴犬君</dd>
+				<dd>拥有鄙夷眼神的小孩子</dd>
+			</span>
+		</dl>
+	</body>
+</html>

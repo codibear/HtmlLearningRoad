@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Qustionaire</title>
+	</head>
+	<body leftmargin="50px" topmargin="50px">
+		<form>
+			<h1><font color="red">American Metric</font ><font color=""></font>电子产品调查表</h1>
+			请输入您的姓名：
+			<input type="text"  name="name"/><br />
+			请输入您的购买日期：
+			<input type="text" size="8px"  name="date" />
+			<select name="month">
+				<option value="01"> 1</option>
+				<option value="02"> 2</option>
+				<option value="03"> 3</option>
+				<option value="04"> 4</option>
+				<option value="05"> 5</option>
+				<option value="06"> 6</option>
+				<option value="07"> 7</option>
+				<option value="08"> 8</option>
+				<option value="09"> 9</option>
+				<option value="10"> 10</option>
+				<option value="11"> 11</option>
+				<option value="12"> 12</option>
+			</select>月
+			<select name="day">
+				<option value="001">1 </option>
+				<option value="002">2 </option>
+				<option value="003">3 </option>
+				<option value="004">4 </option>
+				<option value="005">5 </option>
+				<option value="006"> 6</option>
+				<option value="007"> 7</option>
+				<option value="008"> 8</option>
+				<option value="009">9 </option>
+				<option value="010">10 </option>
+				<option value="011"> 11</option>
+				<option value="012"> 12</option>
+				<option value="013"> 13</option>
+				<option value="014"> 14</option>
+				<option value="015"> 15</option>
+				<option value="016"> 16</option>
+				<option value="017"> 17</option>
+				<option value="018"> 18</option>
+				<option value="019"> 19</option>
+				<option value="020"> 20</option>
+				<option value="021"> 21</option>
+				<option value="022"> 22</option>
+				<option value="023"> 23</option>
+				<option value="024"> 24</option>
+				<option value="025"> 25</option>
+				<option value="026"> 26</option>
+				<option value="027"> 27</option>
+				<option value="028"> 28</option>
+				<option value="029"> 29</option>
+				<option value="030"> 30</option>
+				<option value="031"> 31</option>
+			</select><br/>
+			请输入您的电子邮件
+			<input type="email"  name="email"/><br />
+			您是否看过我们的在线产品目录？
+			<input type="radio" value="yes" name="ask" />是
+			<input type="radio" value="no" name="ask"/>否<br />
+			如果查看过，您对哪些产品有兴趣购买？&nbsp;&nbsp;&nbsp;(选择提供的产品)<br />
+			<input type="checkbox" name="saw" value=""/>大屏幕电视机
+			<input type="checkbox" name="saw" value=""/>音频设备
+			<input type="checkbox" name="saw" value=""/>视频设备
+			<input type="checkbox" name="saw" value=""/>相机
+			<br />
+			在填写订单之前，您还有什么问题、意见或建议？<br/>
+			<textarea  cols="50" rows="5" name="text">您的输入:</textarea><br/>
+			<input type="submit" />
+			<input type="reset" />
+		</form>
+	</body>
+</html>

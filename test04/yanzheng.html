@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			span{color: red;}
+		</style>
+		<!--
+        	作者：offline
+        	时间：2017-05-12
+        	描述：username 写在方法外面不行？
+        
+        -->
+		<script type="text/javascript"> 
+			function ckEver(){
+				var ckb = document.getElementByName("cks").checked;
+				alert(ckb);
+			}
+			function ckAll(){
+				var cka = document.getElementById("ck").checked;
+				if(cka == true){
+				var cks = document.getElementsByName("cks");
+				for(var i= 0;i<cks.length;i++)
+				{ cks.item(i).checked = cka;}
+				}else{
+					
+				}
+			}
+			function authMail(){			
+				var mail = document.getElementById("mail").value;
+				if(mail.indexOf("@") == -1 ){
+					document.getElementById("span2").innerText="你输入的是邮箱？"
+				}
+			}
+			
+			function authUsername(){
+				var userame = document.getElementById("name1").value;
+				if(userame==""){
+					document.getElementById("span1").innerText="用户名不能为空";
+				}else{document.getElementById("span1").innerText="";}
+			}
+		</script>
+	</head>
+	<body onload="ckEver()">
+		
+		用户名：<input type="text" name="username" id="name1" onblur="authUsername()"/><span id="span1"></span>
+		邮箱：<input type="text" id="mail" name="mail1" onblur="authMail()"/><span id="span2"></span>
+		<hr />
+		<input type="checkbox" id="ck" onclick="ckAll()"/>全选<br />
+		<hr />
+		<input type="checkbox" name="cks" onclick="ckEver()"/>141<br />
+		<input type="checkbox" name="cks"/>全2<br />
+		<input type="checkbox" name="cks"/>全3<br />
+		<input type="checkbox" name="cks"/>全4<br />
+	</body>
+</html>

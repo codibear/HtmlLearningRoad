@@ -1,0 +1,5 @@
+ul {list-style: none;margin-left: 10px;float: left;margin-top: 100px;}
+li{padding-right:40px ;float: left;line-height: 24px;font-size: 10px;}
+div{background-image: url(../img/h_bg.jpg); background-repeat: no-repeat;width: 80%;height: 150px; }
+a:link {text-decoration: underline;}
+a:hover {background-image: url(../img/nav_bg.png);font-size: 14px;}

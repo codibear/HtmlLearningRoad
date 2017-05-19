@@ -1,0 +1,6 @@
+#div1 {width: 211px;background-color: #C81623;}
+a:link{width: 221px;text-decoration: none; color: white;}
+a:hover{text-decoration: underline;color: green;}
+p{font-size:14px ;line-height: 30px;}
+#span1{width: 211px;}
+#span2{float: right;clear: both;}

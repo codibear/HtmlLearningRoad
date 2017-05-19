@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>resume</title>
+	</head>
+	<body>
+		<h1>工作简历</h1><br />
+		<ol>
+			<li>目前木有任何工作经验。</li>
+			<li>但是我自学android编程，有一定的android编程经验。</li>
+		</ol>
+		
+	</body>
+</html>

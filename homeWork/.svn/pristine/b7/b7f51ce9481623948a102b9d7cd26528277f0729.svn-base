@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>baseLable</title>
+	</head>
+	<body>
+		<h1>常见的<i>HTML</i>基本标签</h1>
+		水分子的表达式：H<sub>2</sub>O<br />
+		方程式:Z=X<sup>2</sup>+Y<sup>2</sup><br />
+		<b>人物简介：</b>鲁迅<i>1881-1936</i>,原名周樟寿，字豫才，<i>1892</i>年进三味书屋改为豫才。<i>1898</i>年去南京求学取学名为周树人。<br />
+		<img src="../img/computer.jpg" / height="100px" width="100px"><br />
+		原价：<s>￥100元</s><br />
+		现价：￥1元<br />
+		<marquee height="200px" width="400px" behavior="alternate" direction="down" onmouseover="this.stop()" onmouseout="this.start()" bgcolor="aquamarine">
+			<span style="color: red;">双十一到了，购物车满了没有?买买买！</span>
+		</marquee>
+	</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>table1</title>
+	</head>
+	<body>
+		<table border="1px" width="50%"> 
+			<tr>
+				<td rowspan="3"><font size="4">单元格1</font></td>
+				<td rowspan="3"><font size="4">单元格2</font></td>
+				<td><font size="4">设为首页</font></td>
+			</tr>
+			<tr>
+				<td><font size="4">联系站长</font></td>
+
+			</tr>
+			<tr>
+				<td><font size="4">加入收藏</font></td>
+			</tr>
+			<tr>
+				<td colspan="3"><font size="4">首页&nbsp;基础编程&nbsp;高级编程</font></td>
+			</tr>
+		</table>
+	</body>
+</html>

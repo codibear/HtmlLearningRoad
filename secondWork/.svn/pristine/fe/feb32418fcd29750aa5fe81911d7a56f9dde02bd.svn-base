@@ -1,0 +1,23 @@
+span
+{
+	float: left;
+	padding: 30px;
+}
+.span1
+{
+	float: left;
+	clear: left;
+	padding: 30px;
+}
+#id
+{
+	float: left;
+	clear: left;
+	padding: 30px;
+}
+#id2
+{
+	float: left;
+	clear:;
+	padding: 30px;
+}

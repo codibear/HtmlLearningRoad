@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Navigation</title>
+		<link rel="stylesheet" type="text/css" href="../css/work4-5.css" />
+	</head>
+	<body>
+		<div>
+			<!--<img src="../img/h_bg.jpg" />-->
+			<ul>
+                <!--
+                	作者：offline
+                	时间：2017-05-10
+                	描述：<a> 要写在<li>的内部
+                -->
+				<li><a href="#">首页</a></li>
+				<li><a href="#">家用电器</a></li>
+				<li><a href="#">手机数码</a></li>
+				<li><a href="#">日常百货</a></li>
+				<li><a href="#">书籍</a></li>
+				<li><a href="#">帮助中心</a></li>
+				<li><a href="#">日常百货</a></li>
+				<li><a href="#">免费开店</a></li>
+				<li><a href="#">全球资讯</a></li>
+			</ul>
+		</div>
+	</body>
+</html>
